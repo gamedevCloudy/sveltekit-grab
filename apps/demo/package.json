@@ -19,6 +19,6 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
-    "svelte-grab": "workspace:*"
+    "sv-grab": "workspace:*"
   }
 }

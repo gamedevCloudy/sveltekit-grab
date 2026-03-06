@@ -1,5 +1,5 @@
 {
-  "name": "svelte-grab-monorepo",
+  "name": "sv-grab-monorepo",
   "private": true,
   "workspaces": [
     "packages/*",

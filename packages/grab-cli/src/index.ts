@@ -9,11 +9,11 @@ if (command === 'init') {
   runInit()
 } else {
   console.log(`
-svelte-grab CLI
+sv-grab CLI
 
 Usage:
-  npx svelte-grab init    Add <SvelteGrab /> to your SvelteKit layout
-`)
+  npx sv-grab init    Add <SvelteGrab /> to your SvelteKit layout
+  `)
 }
 
 function runInit() {
@@ -48,7 +48,7 @@ function runInit() {
   // Build new layout content
   const scriptBlock = `<script lang="ts">
   import { dev } from '$app/environment'
-  import SvelteGrab from 'svelte-grab'
+  import SvelteGrab from 'sv-grab'
 </script>
 
 `
@@ -76,7 +76,7 @@ function runInit() {
       // Inject imports at top of existing script
       updated = updated.replace(
         /(<script[^>]*>)/,
-        `$1\n  import { dev } from '$app/environment'\n  import SvelteGrab from 'svelte-grab'`
+        `$1\n  import { dev } from '$app/environment'\n  import SvelteGrab from 'sv-grab'`
       )
     } else {
       updated = scriptBlock + updated
@@ -93,22 +93,22 @@ function runInit() {
     console.log('✓ Updated src/routes/+layout.svelte with SvelteGrab.')
   }
 
-  // Install svelte-grab as devDependency
-  console.log('Installing svelte-grab...')
+  // Install sv-grab as devDependency
+  console.log('Installing sv-grab...')
   try {
     const pm = detectPackageManager(cwd)
     const installCmd =
-      pm === 'bun' ? 'bun add -d svelte-grab' :
-      pm === 'pnpm' ? 'pnpm add -D svelte-grab' :
-      pm === 'yarn' ? 'yarn add -D svelte-grab' :
-      'npm install -D svelte-grab'
+      pm === 'bun' ? 'bun add -d sv-grab' :
+      pm === 'pnpm' ? 'pnpm add -D sv-grab' :
+      pm === 'yarn' ? 'yarn add -D sv-grab' :
+      'npm install -D sv-grab'
     execSync(installCmd, { cwd, stdio: 'inherit' })
-    console.log(`✓ Installed svelte-grab using ${pm}.`)
+    console.log(`✓ Installed sv-grab using ${pm}.`)
   } catch {
-    console.log('⚠ Could not auto-install. Run: npm install -D svelte-grab')
+    console.log('⚠ Could not auto-install. Run: npm install -D sv-grab')
   }
 
-  console.log('\nDone! svelte-grab is active in dev mode.')
+  console.log('\nDone! sv-grab is active in dev mode.')
   console.log('Hover any element and press Cmd+C (Mac) or Ctrl+C (Win/Linux) to copy its location.')
 }
 
