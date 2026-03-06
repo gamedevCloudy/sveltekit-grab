@@ -17,6 +17,9 @@ bun.lockb
 .DS_Store
 Thumbs.db
 
+# Claude
+.claude/
+
 # Editor
 .vscode/
 .idea/

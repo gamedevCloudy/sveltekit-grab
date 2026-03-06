@@ -1,1 +1,9 @@
-dist/__tests__
+src/
+tests/
+*.config.*
+tsconfig.json
+bunfig.toml
+.svelte-kit/
+node_modules/
+dist/__tests__/
+.npmignore
