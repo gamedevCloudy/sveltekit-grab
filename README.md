@@ -1,13 +1,23 @@
-# sveltekit-grab
+<div align="center">
 
-![npm version](https://img.shields.io/npm/v/sveltekit-grab?style=flat)
-![npm downloads](https://img.shields.io/npm/dm/sveltekit-grab?style=flat)
-![GitHub stars](https://img.shields.io/github/stars/gamedevCloudy/svelte-grab?style=flat)
-![license](https://img.shields.io/npm/l/sveltekit-grab?style=flat)
+# 🤏 sveltekit-grab
+
+**Stop manually hunting for component files — let `sveltekit-grab` tell you exactly where any DOM element comes from.**
+
+[![npm version](https://img.shields.io/npm/v/sveltekit-grab?style=flat-square&color=black)](https://www.npmjs.com/package/sveltekit-grab)
+[![npm downloads](https://img.shields.io/npm/dm/sveltekit-grab?style=flat-square&color=black)](https://www.npmjs.com/package/sveltekit-grab)
+[![GitHub stars](https://img.shields.io/github/stars/gamedevCloudy/sveltekit-grab?style=flat-square&color=black)](https://github.com/gamedevCloudy/sveltekit-grab)
+[![license](https://img.shields.io/npm/l/sveltekit-grab?style=flat-square&color=black)](https://github.com/gamedevCloudy/sveltekit-grab/blob/main/LICENSE)
+
+<br/>
+
+<video src="https://github.com/gamedevCloudy/sveltekit-grab/raw/main/.github/assets/demo.mp4" autoplay loop muted playsinline width="100%" style="max-width: 800px; border-radius: 8px;"></video>
+
+<br/>
 
 > Hover any element → press `Cmd+C` → instantly copy its component name, source file, and HTML snippet to your clipboard.
 
-A developer productivity tool for SvelteKit projects. Stop manually hunting for component files — let `sveltekit-grab` tell you exactly where any DOM element comes from.
+</div>
 
 ## Install
 
