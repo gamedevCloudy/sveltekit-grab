@@ -1,6 +1,6 @@
 <script lang="ts">
   import { dev } from '$app/environment'
-  import { SvelteGrab } from 'sv-grab'
+  import { SvelteGrab } from 'sveltekit-grab'
   import type { Snippet } from 'svelte'
 
   let { children }: { children: Snippet } = $props()

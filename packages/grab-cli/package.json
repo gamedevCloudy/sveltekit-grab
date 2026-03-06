@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "sv-grab": "./dist/index.js"
+    "sveltekit-grab": "./dist/index.js"
   },
   "scripts": {
     "build": "tsup",

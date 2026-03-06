@@ -1,5 +1,5 @@
 {
-  "name": "sv-grab-monorepo",
+  "name": "sveltekit-grab-monorepo",
   "private": true,
   "workspaces": [
     "packages/*",

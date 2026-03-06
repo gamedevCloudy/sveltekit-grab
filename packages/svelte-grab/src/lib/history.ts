@@ -1,4 +1,4 @@
-const KEY = 'sv-grab:history'
+const KEY = 'sveltekit-grab:history'
 const MAX = 50
 
 export interface HistoryItem {

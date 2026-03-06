@@ -63,7 +63,7 @@
     </Card>
 
     <Card title="Code">
-      <pre class="code-block"><code>{`import { init } from 'sv-grab'
+      <pre class="code-block"><code>{`import { init } from 'sveltekit-grab'
 
 const destroy = init({
   onCopy: (ctx) => {
