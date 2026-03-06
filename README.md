@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🤏 sveltekit-grab
+<img src="https://raw.githubusercontent.com/gamedevCloudy/sveltekit-grab/main/packages/svelte-grab/assets/svelte-grab.webp" alt="sveltekit-grab logo" width="300" />
+
+# sveltekit-grab
 
 **Stop manually hunting for component files — let `sveltekit-grab` tell you exactly where any DOM element comes from.**
 
