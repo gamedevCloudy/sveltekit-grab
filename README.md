@@ -13,7 +13,7 @@
 
 <br/>
 
-[demo](https://raw.githubusercontent.com/gamedevCloudy/sveltekit-grab/main/.github/assets/demo.mp4)
+<video src="https://github.com/gamedevCloudy/sveltekit-grab/raw/main/.github/assets/demo.mp4" autoplay loop muted playsinline controls width="100%"></video>
 
 <br/>
 
@@ -35,7 +35,7 @@ Add `<SvelteGrab />` to your root layout (only in dev mode):
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
   import { dev } from '$app/environment'
-  import SvelteGrab from 'sveltekit-grab'
+  import { SvelteGrab } from 'sveltekit-grab'
 </script>
 
 {#if dev}
